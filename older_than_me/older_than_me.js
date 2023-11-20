@@ -15,3 +15,13 @@ class Person {
         }
     }
 }
+
+let p1 = new Person("Samuel", 24);
+let p2 = new Person("Joel", 36);
+let p3 = new Person("Lily", 24);
+
+console.log(p1.compareAge(p2));
+
+console.log(p2.compareAge(p1));
+
+console.log(p1.compareAge(p3));
